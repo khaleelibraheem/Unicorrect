@@ -307,6 +307,9 @@ nav a{
         display: flex;
         gap: 8px;
     }
+    .msg{
+        display: none;
+    }
     
 }
 
@@ -377,6 +380,25 @@ nav a{
 
 .msg span{
     font-size: 22px;
+}
+.float{
+    height: 50px;
+    width: 50px;
+    background-color: #3700fe;
+    border-radius: 50px;
+    box-shadow: 0px 2px 8px 2px rgba(0, 0, 0, 0.2);
+    position: fixed;
+    top: 80%;
+    right: 0;
+}
+
+.float i{
+    position: absolute;
+    top: 30%;
+    right: 15px;
+    color: white;
+    font-size: 22px;
+
 }
 
 /* End of WalletPage */
@@ -461,6 +483,9 @@ textarea{
     }
     .btn input{
         width: 107%;
+    }
+    .float{
+        right: 20px;
     }
 }
 
